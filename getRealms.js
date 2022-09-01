@@ -1,6 +1,6 @@
  validateOptions(options)
 
-const { Authflow: PrismarineAuth, Titles } = require('prismarine-auth')
+const { Authflow: PrismarineAuth } = require('prismarine-auth')
 const { RealmAPI } = require('prismarine-realms')
 authflow = new PrismarineAuth(options.username, options.profilesFolder, options, options.onMsaCode)
 
