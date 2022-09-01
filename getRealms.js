@@ -1,5 +1,3 @@
- validateOptions(options)
-
 const { Authflow: PrismarineAuth } = require('prismarine-auth')
 const { RealmAPI } = require('prismarine-realms')
 authflow = new PrismarineAuth()
