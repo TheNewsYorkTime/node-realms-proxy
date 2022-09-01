@@ -2,7 +2,7 @@
 
 const { Authflow: PrismarineAuth } = require('prismarine-auth')
 const { RealmAPI } = require('prismarine-realms')
-authflow = new PrismarineAuth(options.username, options.profilesFolder, options, options.onMsaCode)
+authflow = new PrismarineAuth()
 
   const api = RealmAPI.from(authflow, 'bedrock')
 
